@@ -18,16 +18,3 @@ export default function App({ Component, pageProps }) {
 3. **index.js** 있는지 확인
 4. **없으면** → 위에서 제공한 긴 코드로 다시 생성
 
----
-
-## 올바른 최종 구조
-```
-boldign-master-plan-260211/
-├── pages/              ← 루트 바로 아래!
-│   ├── _app.js
-│   └── index.js
-├── styles/             ← 별도 폴더
-│   └── globals.css
-├── package.json
-├── tailwind.config.js
-└── postcss.config.js
